@@ -1,64 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="author" content="Celia Luque">
-  <title>Celia's Pattern Library</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Celia Luque" />
+    <title>Celia's Pattern Library</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Amiri&family=Biryani:wght@300&family=Catamaran:wght@700&display=swap" rel="stylesheet"/>
+  </head>
 
-<body>
-  <main>
-    <h1>Celia's Pattern Library</h1>
-    <section class="pattern-section">
-      <h2>Colors
-        <h3>Main Color tints
-          <ul>
-            <li class="pattern-color"></li>
-            <li class="pattern-color"></li>
-            <li class="pattern-color"></li>
-          </ul>
-        </h3>
-        <h3>Secondary Color tints
-          <ul>
-            <li class="pattern-color"></li>
-            <li class="pattern-color"></li>
-            <li class="pattern-color"></li>
-          </ul>
-        </h3>
-        <h3>Grey scale
-          <ul>
-            <li class="pattern-color"></li>
-            <li class="pattern-color"></li>
-            <li class="pattern-color"></li>
-            <li class="pattern-color"></li>
-          </ul>
-        </h3>
-      </h2>
-    </section>
-    <section>
-      <h2>Headers
-        <ul>
-          <li class="title-h1">H1. This is an example.</li>
-          <li class="title-h2">H2. This is an example.</li>
-          <li class="title-h3">H3. This is an example.</li>
-          <li class="title-h4">H4. This is an example.</li>
-          <li class="title-h5">H5. This is an example.</li>
-        </ul>
-      </h2>
-    </section>
-    <h2>Buttons
-      <h3>
-        <button></button>
-        <button></button>
-      </h3>
-      <h3>
-        <button></button>
-        <button></button>
-      </h3>
-    </h2>
-  </main>
-</body>
+  <body>
+    <main class="pattern-content">
+      <h1>Celia's Pattern Library</h1>
+
+      <section class="pattern-section">
+        <h2 class="pattern-title">Colors
+          <h3>Main Color tints<br>
+            <div class="pattern-color bg-color-purple" data-color="#3f2e56"></div>
+            <div class="pattern-color bg-color-coral" data-color="#e56b6f"></div>
+            <div class="pattern-color bg-color-beige" data-color="#f2e2d2"></div>
+          </h3>
+          <h3>Secondary Color tints<br>
+            <div class="pattern-color bg-color-blue" data-color="#759aab"></div>
+            <div class="pattern-color bg-color-pink" data-color="#a57982"></div>
+          </h3>
+          <h3>Grey scale<br>
+            <div class="pattern-color bg-color-grey1" data-color="#1b1b1b"></div>
+            <div class="pattern-color bg-color-grey2" data-color="#404040"></div>
+            <div class="pattern-color bg-color-grey3" data-color="#6c6c6c"></div>
+            <div class="pattern-color bg-color-grey4" data-color="#a9a9a9"></div>
+          </h3>
+        </h2>
+      </section>
+
+      <section class="pattern-section">
+        <h2 class="pattern-title">Headers<br>
+          <h1 class="title-h1">H1. This is an example.</h1>
+          <h2 class="title-h2">H2. This is an example.</h2>
+          <h3 class="title-h3">H3. This is an example.</h3>
+          <h4 class="title-h4">H4. This is an example.</h4>
+          <h5 class="title-h5">H5. This is an example.</h5>
+        </h2>
+      </section>
+
+      <section class="pattern-section">
+        <h2 class="pattern-title">Buttons<br>
+          <h3>Main buttons <code>class="btn"</code> or <code>&#10092;buttons&#10093;</code><br>
+            <button>Click here!</button>
+            <a href="https://google.es" target="_blank" class="btn">Button Link</a>
+          </h3>
+          <h3>Secondary buttons <code>class="btn btn--secondary"</code><br>
+            <button class="btn--secondary">Click here!</button>
+            <a href="https://mimimimimimimimimi.es" target="_blank" class="btn btn--secondary">Button Link</a>
+          </h3>
+        </h2>
+      </section>
+
+    </main>
+  </body>
 </html>
